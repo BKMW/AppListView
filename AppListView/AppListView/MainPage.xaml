@@ -8,7 +8,7 @@
         <ListView x:Name="ListView1" HasUnevenRows="True"  RowHeight="50">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding .}" TextColor="Black"/>
+                    <TextCell Text="{Binding .}" TextColor="White"/>
                     <!--<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding Image}"/>-->
                    
                 </DataTemplate>
